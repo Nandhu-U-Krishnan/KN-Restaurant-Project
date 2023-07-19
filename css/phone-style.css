@@ -1,0 +1,105 @@
+/* navigation bar  */
+#nav-bar{
+    flex-direction: column;
+}
+
+#nav-bar ul li a{
+    font-size: 1rem;
+    padding: 0 7px;
+    padding-bottom: 8px;
+}
+
+/* home section */
+#home{
+    height: 400px;
+    padding: 3px 68px;
+}
+
+#home::before{
+    height: 480px;
+
+}
+
+#home p{
+    font-size: 10px;
+}
+
+
+/* service section */
+#service{
+    flex-direction: column;
+}
+#service .box{
+    padding: 14px;
+    margin: 2px 15px;
+    margin-bottom: 20px;
+
+}
+#service .box img{
+    width: 130px; 
+   
+}
+
+/* about two parts 1:- Food  */
+
+#about{
+    flex-direction: column;
+}
+#about .box{
+    padding: 14px;
+    margin: 2px 15px;
+    margin-bottom: 20px;
+}
+
+/* about two parts 2:- Restaurant  */
+
+#abt-rest{
+    flex-direction: column;
+}
+
+#abt-rest .container{
+    height: 400px;
+    width: 300px;
+    display: block;
+    margin: auto;
+    padding: 14px;
+    margin-bottom: 25px;
+}
+#abt-rest  .container img{
+    width: 130px;
+    height: 130px;
+}
+#abt-rest  .container button{
+    font-size: 10px;
+    width: 100px;
+}
+
+/* Contact and Footer  */
+#contact{
+    flex-wrap: wrap;
+}
+
+#contact .box form{
+    width: 100px;
+}
+
+#contact .box form textarea{
+    width: 190px;
+}
+#contact .box form button{
+    width: 150px;
+    height: 30px;
+}
+
+
+
+/* utility classes */
+.h-primary{
+    font-size: 26px;
+}
+
+.btn{
+    font-size: 13px;
+    padding: 4px 8px;
+}
+
